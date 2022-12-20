@@ -119,6 +119,10 @@ const ProductStyle = styled.main`
   padding-top: 2rem;
   padding-bottom: 5rem;
 
+  .filter-items{
+    text-align: center;
+  }
+
   .product-search {
     position: relative;
     text-align: center;

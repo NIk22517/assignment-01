@@ -1,15 +1,25 @@
 import React from "react";
 import styled from "styled-components";
 
-const LeftSide = ({ category, brands, businessType, strength, manuf, setStrengthItem, setCategoriesItem }) => {
-
+const LeftSide = ({
+  category,
+  brands,
+  businessType,
+  strength,
+  manuf,
+  setStrengthItem,
+  setCategoriesItem,
+  setSearchItem,
+}) => {
   const handleStrength = (e) => {
     setStrengthItem(e.target.value);
+    setSearchItem("");
   };
 
   const handleCategory = (e) => {
-    setCategoriesItem(e.target.value)
-  }
+    setCategoriesItem(e.target.value);
+    setSearchItem("");
+  };
   return (
     <>
       <FilterSection>

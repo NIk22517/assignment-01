@@ -80,6 +80,7 @@ const Products = () => {
             manuf={manuf}
             setStrengthItem={setStrengthItem}
             setCategoriesItem={setCategoriesItem}
+            setSearchItem={setSearchItem}
           />
         </section>
         <section className='rigth'>

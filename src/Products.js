@@ -38,6 +38,8 @@ const Products = () => {
 
   const handleClick = () => {
     setFilterItem(searchItem);
+    clearFilterStrength();
+    clearFilterCategory();
   };
 
   const clearFilterStrength = () => {
